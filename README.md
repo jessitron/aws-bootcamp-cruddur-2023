@@ -2,6 +2,15 @@
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/jessitron/aws-bootcamp-cruddur-2023)
 
+FRONTEND*URL="*" BACKEND*URL="*" docker run --rm -p 4567:4567 -it backend-flask
+
+docker run --rm -p 4567:4567 -it -e FRONTEND*URL='*' -e BACKEND*URL='*' backend-flask
+
+```
+docker build -t  backend-flask ./backend-flask
+docker build -t  backend-flask:latest ./backend-flask
+```
+
 - Application: Cruddur
 - Cohort: 2023-A1
 
